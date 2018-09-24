@@ -8,5 +8,6 @@ CREATE TABLE Registration
     City varchar(100) NOT NULL,
     State char(2) NOT NULL,
     Zip varchar(9) NOT NULL,
-    Country VARCHAR(100) DEFAULT 'US' NOT NULL
+    Country VARCHAR(100) DEFAULT 'US' NOT NULL,
+    Created TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
